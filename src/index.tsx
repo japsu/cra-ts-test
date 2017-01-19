@@ -15,7 +15,9 @@ import MainLayout from './components/MainLayout';
 
 const routingMiddleware = routerMiddleware(browserHistory);
 
+// tslint:disable-next-line
 const composeEnhancers = (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
 const enhancers = composeEnhancers(
   applyMiddleware(thunk),
   applyMiddleware(routingMiddleware),
@@ -41,10 +43,6 @@ class App extends Component<null, null> {
     );
   }
 }
-
-export default App;
-
-
 
 
 ReactDOM.render(

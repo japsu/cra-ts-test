@@ -1,13 +1,12 @@
 import * as React from 'react';
 
 
-interface Props {
-  children: any,
-}
+interface MainLayoutProps {}
+interface MainLayoutState {}
 
 
-export default class MainLayout extends React.Component<Props, null> {
+export default class MainLayout extends React.Component<MainLayoutProps, MainLayoutState> {
   render() {
-    return this.props.children;
+    return <div>{this.props.children}</div>;
   }
 }

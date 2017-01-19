@@ -7,7 +7,11 @@ import './index.css';
 const logo = require('./logo.svg');
 
 
-export default class Home extends Component<null, null> {
+interface HomeProps {}
+interface HomeState {}
+
+
+export default class Home extends Component<HomeProps, HomeState> {
   render() {
     return (
       <div className="Home">
