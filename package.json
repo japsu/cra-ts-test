@@ -1,0 +1,22 @@
+{
+  "name": "cra-ts-test",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@japsu/react-scripts-ts": "2.0.0-pre1"
+  },
+  "dependencies": {
+    "@types/jest": "^16.0.4",
+    "@types/node": "^7.0.0",
+    "@types/react": "^15.0.0",
+    "@types/react-dom": "^0.14.20",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
