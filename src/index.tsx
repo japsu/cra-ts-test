@@ -12,6 +12,8 @@ import reducers from './modules';
 import Home from './components/Home';
 import MainLayout from './components/MainLayout';
 
+import './index.css';
+
 
 const routingMiddleware = routerMiddleware(browserHistory);
 
