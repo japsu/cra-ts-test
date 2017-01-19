@@ -33,8 +33,8 @@ class App extends Component<null, null> {
     return (
       <Provider store={store}>
         <Router history={history}>
-          <Route component={MainLayout}>
-            <Route path="*" component={Home} />
+          <Route component={MainLayout as any}>
+            <Route path="*" component={Home as any} />
           </Route>
         </Router>
       </Provider>
